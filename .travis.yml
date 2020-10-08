@@ -1,5 +1,8 @@
 language: c
 sudo: false
+arch:
+  - AMD64
+  - ppc64le
 addons:
   apt:
     sources:
